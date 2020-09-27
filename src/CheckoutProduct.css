@@ -9,6 +9,9 @@
 }
 
 .checkoutProduct__info>button {
+    height: 30px;
+    border-radius: 5px;
+    width: 100%;
     background: #f0c14b;
     border: 1px solid;
     margin-top: 10px;
