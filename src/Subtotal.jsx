@@ -6,7 +6,7 @@ import { getBasketTotal } from './reducer'
 
 function Subtotal() {
     
-    const [{basket}] = useStateValue()
+    const [{basket, user }, dispatcher] = useStateValue()
 
     return (
         <div className="subtotal">
@@ -30,7 +30,7 @@ function Subtotal() {
             prefix={" R$ "}
             />
 
-            <button onClick={e=>history.push("/payment")} >Prosseguir para o checkout</button>
+            <button  >Prosseguir para o checkout</button>
         </div>
     )
 }
